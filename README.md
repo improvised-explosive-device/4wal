@@ -1,4 +1,4 @@
-changes specific to this fork:
+#### Changes specific to this fork:
 ```
 1. get random board with '-r', filter board by worksafe status with '-r [nsfw/sfw]'
 2. specifiy file extension(s) with '-e ext [ext..]'
