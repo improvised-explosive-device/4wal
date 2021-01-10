@@ -1,3 +1,11 @@
+changes specific to this fork:
+```
+1. get random board with '-r', filter board by worksafe status with '-r [nsfw/sfw]'
+2. specifiy file extension(s) with '-e ext [ext..]'
+3. ask user if they want to download anyway if no software to set wp exists
+4. small changes in printout (formatting, print thread url, more verbose help)
+5. wpgtk support
+```
 ## 4wal 2.0
 
 Set a random wallpaper from 4chan!
