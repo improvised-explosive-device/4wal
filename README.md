@@ -11,21 +11,21 @@ I completely rewrote the program in one sitting to be more simple because of how
 4wal.py [-h] [-v] [-b <board>] [-c <cmd>] [-m <res>] [-f user/server] [-e <ext> [<ext> ...]] [-r [nsfw/sfw]] [-p <path>] [-q]
 
 optional arguments:
-  -f, --filename user/server               save file with user or server filename
-  -p, --path <path>                             where to save wallpaper files (default: /home/dog/4wal)
-  -q, --quiet                                          silence all output
+  -f, --filename user/server         save file with user or server filename
+  -p, --path <path>                  where to save wallpaper files (default: /home/dog/4wal)
+  -q, --quiet                        silence all output
 
 filter arguments:
 
-  -b, --board <board>                          board to scrape for wallpaper (default: /wg/)
-  -c --command <cmd>                            command to set wallpaper (default: wpg -s &>/dev/null)
-  -m, --min-res <res>                            specify minimum resolution (ex. 1920x1080)
+  -b, --board <board>                board to scrape for wallpaper (default: /wg/)
+  -c --command <cmd>                 command to set wallpaper (default: wpg -s &>/dev/null)
+  -m, --min-res <res>                specify minimum resolution (ex. 1920x1080)
   -e, --extension <ext> [<ext> ...]  specify file extension(s) (default: .jpg .jpeg .png)
-  -r, --random [nsfw/sfw]                   choose board at random, filter by nsfw or sfw
+  -r, --random [nsfw/sfw]            choose board at random, filter by nsfw or sfw
 
 information arguments:
 
-  -h, --help                                           show this help message and exit
-  -v, --version                                        show program version and exit
+  -h, --help                         show this help message and exit
+  -v, --version                      show program version and exit
 
 ```
