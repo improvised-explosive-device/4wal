@@ -19,7 +19,7 @@ filter arguments:
   -b, --board <board>                board to scrape for wallpaper (default: /wg/)
   -c  --command <cmd>                command to set wallpaper
   -m, --min-res <res>                specify minimum resolution (ex. 1920x1080)
-  -e, --extension <ext> [ext ...]  specify file extension(s) (default: .jpg .jpeg .png)
+  -e, --extension <ext> [ext ...]    specify file extension(s) (default: .jpg .jpeg .png)
   -r, --random [nsfw/sfw]            choose board at random, filter by nsfw or sfw
 
 information arguments:
