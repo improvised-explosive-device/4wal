@@ -1,6 +1,4 @@
-import random
-import argparse
-from argparse import ArgumentParser, SUPPRESS
+from argparse import ArgumentParser, HelpFormatter, SUPPRESS
 from pathlib import Path
 from random import randint, choice
 from requests import get
@@ -35,7 +33,7 @@ def get_random_board():
             boardnums.append(board['board'])
         if board['ws_board'] == 1 and "sfw" in args.random:
             boardnums.append(board['board'])
-    args.board = random.choice(boardnums)
+    args.board = choice(boardnums)
 
 
 def get_random_thread():
@@ -72,7 +70,7 @@ def get_random_post(thread_post_num):
 
 
 if __name__ == "__main__":
-    parser = ArgumentParser(description="Set a random wallpaper from 4chan!", add_help=False, formatter_class=lambda prog: argparse.HelpFormatter(prog,max_help_position=70))
+    parser = ArgumentParser(description="Set a random wallpaper from 4chan!", add_help=False, formatter_class=lambda prog: HelpFormatter(prog,max_help_position=70))
     arg_filt = parser.add_argument_group(title='filter arguments', description='')
     arg_info = parser.add_argument_group(title='information arguments', description='')
     arg_info.add_argument("-h", "--help", action="help", default=SUPPRESS, help="show this help message and exit")
