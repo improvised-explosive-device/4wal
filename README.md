@@ -8,7 +8,7 @@ I completely rewrote the program in one sitting to be more simple because of how
 
 ## usage
 ```
-4wal.py [-h] [-v] [-b <board>] [-c <cmd>] [-m <res>] [-f user/server] [-e <ext> [<ext> ...]] [-r [nsfw/sfw]] [-p <path>] [-q]
+4wal.py [options]
 
 optional arguments:
   -f, --filename user/server         save file with user or server filename
