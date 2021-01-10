@@ -16,7 +16,6 @@ optional arguments:
   -q, --quiet                        silence all output
 
 filter arguments:
-
   -b, --board <board>                board to scrape for wallpaper (default: /wg/)
   -c  --command <cmd>                command to set wallpaper
   -m, --min-res <res>                specify minimum resolution (ex. 1920x1080)
@@ -24,7 +23,6 @@ filter arguments:
   -r, --random [nsfw/sfw]            choose board at random, filter by nsfw or sfw
 
 information arguments:
-
   -h, --help                         show this help message and exit
   -v, --version                      show program version and exit
 
